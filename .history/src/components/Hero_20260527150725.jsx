@@ -20,7 +20,7 @@ function Hero() {
         padding: isMobile ? '100px 20px 60px 20px' : '120px 40px 80px 40px',
         textAlign: 'center',
         marginTop: '60px',
-        backgroundImage: 'linear-gradient(135deg, #1E40AF 0%, #1e3a8a 100%)',
+        backgroundImage: 'linear-gradient(135deg, #1E40AF 0%, #d0e3c4 100%)',
         position: 'relative',
         overflow: 'hidden',
       }}
@@ -53,9 +53,9 @@ function Hero() {
 
       <div style={{ position: 'relative', zIndex: 1 }}>
         {/* Logo */}
-        <div style={{ marginBottom: '30px' }}>
+        <div style={{  }}>
           <img
-            src={require('/Users/rafaelfabiansilva/zamea-group/src/assets/logoZAMEA.png')}
+            src={require('/Users/rafaelfabiansilva/zamea-group/src/assets/logo.png')}
             alt="ZAMEA GROUP Logo"
             style={{
               maxWidth: isMobile ? '120px' : '460px',
@@ -68,7 +68,7 @@ function Hero() {
         <h2
           style={{
             fontSize: isMobile ? '36px' : '56px',
-            margin: '0 0 20px 0',
+            margin: '0 0 10px 0',
             fontWeight: 'bold',
             animation: 'fadeInDown 0.8s ease 0.1s backwards',
           }}

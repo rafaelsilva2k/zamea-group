@@ -55,7 +55,7 @@ function Hero() {
         {/* Logo */}
         <div style={{  }}>
           <img
-            src={require('/Users/rafaelfabiansilva/zamea-group/src/assets/LogoZAMEA.png')}
+            src={require('/Users/rafaelfabiansilva/zamea-group/src/assets/logozamea.png')}
             alt="ZAMEA GROUP Logo"
             style={{
               maxWidth: isMobile ? '120px' : '460px',

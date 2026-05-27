@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 function Hero() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
- 
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
@@ -20,7 +20,7 @@ function Hero() {
         padding: isMobile ? '100px 20px 60px 20px' : '120px 40px 80px 40px',
         textAlign: 'center',
         marginTop: '60px',
-        backgroundImage: 'linear-gradient(135deg, #1E40AF 0%, #1e3a8a 100%)',
+        backgroundImage: 'linear-gradient(135deg, #1E40AF 0%, #d0e3c4 100%)',
         position: 'relative',
         overflow: 'hidden',
       }}
@@ -53,12 +53,12 @@ function Hero() {
 
       <div style={{ position: 'relative', zIndex: 1 }}>
         {/* Logo */}
-        <div style={{ marginBottom: '30px' }}>
+        <div style={{  }}>
           <img
-            src={require('../PUBLIC/logo.png')}
+            src={require('/Users/rafaelfabiansilva/zamea-group/src/assets/logozamea.png')}
             alt="ZAMEA GROUP Logo"
             style={{
-              maxWidth: isMobile ? '120px' : '160px',
+              maxWidth: isMobile ? '120px' : '460px',
               height: 'auto',
               animation: 'fadeInDown 0.8s ease',
             }}
@@ -67,17 +67,17 @@ function Hero() {
 
         <h2
           style={{
-            fontSize: '56px',
-            margin: '0 0 20px 0',
+            fontSize: isMobile ? '36px' : '56px',
+            margin: '0 0 10px 0',
             fontWeight: 'bold',
-            animation: 'fadeInDown 0.8s ease',
+            animation: 'fadeInDown 0.8s ease 0.1s backwards',
           }}
         >
           Aumenta tu Pensión
         </h2>
         <p
           style={{
-            fontSize: '22px',
+            fontSize: isMobile ? '16px' : '22px',
             margin: '0 0 30px 0',
             opacity: '0.95',
             animation: 'fadeInUp 0.8s ease 0.2s backwards',
@@ -86,11 +86,17 @@ function Hero() {
           Somos expertos en financiamiento IMSS. Modalidad 40, Ley 97, Ley 73 y más.
         </p>
         <button
+          onClick={() => {
+            const contactoSection = document.getElementById('contacto');
+            if (contactoSection) {
+              contactoSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }}
           style={{
             backgroundColor: '#4DD9A6',
             color: '#2D3748',
-            padding: '15px 40px',
-            fontSize: '16px',
+            padding: isMobile ? '12px 30px' : '15px 40px',
+            fontSize: isMobile ? '14px' : '16px',
             fontWeight: 'bold',
             border: 'none',
             borderRadius: '8px',
