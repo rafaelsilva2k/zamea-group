@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from "../assets/logozamea.png";
 
 function Hero() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -55,7 +56,7 @@ function Hero() {
         {/* Logo */}
         <div style={{  }}>
           <img
-            src={require('../assets/LogoZAMEA.png')}
+            src={require('../assets/logozamea.png')}
             alt="ZAMEA GROUP Logo"
             style={{
               maxWidth: isMobile ? '120px' : '460px',

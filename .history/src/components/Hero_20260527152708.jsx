@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from "../assets/logozamea.png";
 
 function Hero() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
