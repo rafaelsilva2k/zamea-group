@@ -5,7 +5,7 @@ import Servicios from './components/Servicios';
 import SobreNosotros from './components/Sobrenosotros';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
-import FloatingButtons from './components/Floatingbuttons';
+import FloatingButtons from './components/FloatingButtons';
 import './App.css';
 
 function App() {
