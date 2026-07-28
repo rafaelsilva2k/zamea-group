@@ -80,7 +80,7 @@ function SobreNosotros() {
                   borderLeft: '4px solid #1E40AF',
                 }}
               >
-                <div style={{ fontSize: '28px', fontWeight: 'bold', color: '#1E40AF' }}>
+                <div style={{ fontSize: '28px', fontWeight: 'bold', color: '#1f326f' }}>
                   300+
                 </div>
                 <div style={{ color: '#666', marginTop: '8px', fontSize: '14px' }}>
@@ -145,8 +145,8 @@ function SobreNosotros() {
             {/* Card 2 */}
             <div
               style={{
-                backgroundColor: '#63ab32',
-                color: '#ffffff',
+                backgroundColor: '#4DD9A6',
+                color: '#2D3748',
                 padding: '30px',
                 borderRadius: '16px',
                 boxShadow: '0 10px 30px rgba(77, 217, 166, 0.2)',

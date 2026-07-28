@@ -39,7 +39,31 @@ function Hero() {
         alignItems: 'flex-end',
       }}
     >
-      
+      {/* Decorative elements */}
+      <div
+        style={{
+          position: 'absolute',
+          top: '-50px',
+          right: '-100px',
+          width: '300px',
+          height: '300px',
+          backgroundColor: '#4DD9A6',
+          borderRadius: '50%',
+          opacity: '0.1',
+        }}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '-100px',
+          left: '-50px',
+          width: '400px',
+          height: '400px',
+          backgroundColor: '#4DD9A6',
+          borderRadius: '50%',
+          opacity: '0.1',
+        }}
+      />
 
       <div style={{ position: 'relative', zIndex: 1, maxWidth: '900px', width: '100%', }}>
         {/* Logo */}
@@ -73,7 +97,7 @@ function Hero() {
             }
           }}
           style={{
-            backgroundColor: '#63ab32',
+            backgroundColor: '#669873',
             color: '#f4f5f5',
             padding: isMobile ? '12px 30px' : '15px 40px',
             fontSize: isMobile ? '14px' : '16px',

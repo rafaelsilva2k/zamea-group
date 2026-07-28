@@ -58,9 +58,7 @@ function Header() {
           top: 0,
           left: 0,
           right: 0,
-          backgroundColor: "rgb(245, 250, 241)",
-          backdropFilter: "blur(12px)",
-          borderBottom: "1px solid rgba(0,0,0,.08)",
+          backgroundColor: '#4DD9A6',
           padding: isMobile ? '12px 16px' : '15px 30px',
           display: 'flex',
           justifyContent: 'space-between',
@@ -84,13 +82,15 @@ function Header() {
           }}
         >
           <img
-              src={logo}
-              alt="ZAMEA Group"
-              style={{
-                  height: isMobile ? "45px" : "65px",
-                  width: "auto",
-              }}
-          />
+    src={logo}
+    alt="ZAMEA Group"
+    style={{
+        height: isMobile ? "45px" : "65px",
+        width: "auto",
+    }}
+/>
+
+
         </button>
 
         {/* Desktop Nav */}
@@ -103,7 +103,7 @@ function Header() {
                 style={{
                   background: 'none',
                   border: 'none',
-                  color: 'rgb(45, 55, 72)',
+                  color: '#2D3748',
                   fontSize: '16px',
                   fontWeight: '500',
                   cursor: 'pointer',
@@ -176,8 +176,7 @@ function Header() {
                 style={{
                   background: 'none',
                   border: 'none',
-                  color:"#024513",
-                  fontWeight:"600",
+                  color: '#2D3748',
                   fontSize: '16px',
                   fontWeight: '600',
                   cursor: 'pointer',

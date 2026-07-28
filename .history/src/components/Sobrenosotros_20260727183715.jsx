@@ -146,7 +146,7 @@ function SobreNosotros() {
             <div
               style={{
                 backgroundColor: '#63ab32',
-                color: '#ffffff',
+                color: '#2D3748',
                 padding: '30px',
                 borderRadius: '16px',
                 boxShadow: '0 10px 30px rgba(77, 217, 166, 0.2)',

@@ -46,7 +46,7 @@ function Servicios() {
       titulo: 'Modalidad 10',
       descripcion: 'Financiamiento flexible bajo Modalidad 10. Soluciones adaptadas a tu realidad económica.',
       icon: '🎯',
-      color: '#63ab32',
+      color: '#3d701b',
       imagen: 'images/pencil.png'
     },
     {

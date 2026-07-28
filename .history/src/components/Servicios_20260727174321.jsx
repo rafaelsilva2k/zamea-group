@@ -18,14 +18,14 @@ function Servicios() {
       titulo: 'Modalidad 40',
       descripcion: 'Aumenta tu pensión hasta 300% con retro activos. Programa especialmente diseñado para trabajadores del IMSS que desean mejorar su jubilación.',
       icon: '📊',
-      color: '#1E40AF',
+      color: '#3b486f',
       imagen: 'images/Modalidad40.png'
     },
     {
       titulo: 'Asesorías Gratuitas',
       descripcion: 'Consulta sin costo sobre tus opciones financieras. Nuestros expertos te guiarán en cada paso del proceso.',
       icon: '💼',
-      color: '#63ab32',
+      color: '#455e55',
       imagen: 'images/asesorias.png'
     },
     {
@@ -46,7 +46,7 @@ function Servicios() {
       titulo: 'Modalidad 10',
       descripcion: 'Financiamiento flexible bajo Modalidad 10. Soluciones adaptadas a tu realidad económica.',
       icon: '🎯',
-      color: '#63ab32',
+      color: '#4DD9A6',
       imagen: 'images/pencil.png'
     },
     {

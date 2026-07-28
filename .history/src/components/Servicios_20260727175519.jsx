@@ -25,7 +25,7 @@ function Servicios() {
       titulo: 'Asesorías Gratuitas',
       descripcion: 'Consulta sin costo sobre tus opciones financieras. Nuestros expertos te guiarán en cada paso del proceso.',
       icon: '💼',
-      color: '#63ab32',
+      color: '#024513',
       imagen: 'images/asesorias.png'
     },
     {
@@ -46,7 +46,7 @@ function Servicios() {
       titulo: 'Modalidad 10',
       descripcion: 'Financiamiento flexible bajo Modalidad 10. Soluciones adaptadas a tu realidad económica.',
       icon: '🎯',
-      color: '#63ab32',
+      color: '#4DD9A6',
       imagen: 'images/pencil.png'
     },
     {

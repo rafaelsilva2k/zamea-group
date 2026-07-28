@@ -24,7 +24,7 @@ function Hero() {
         marginTop: '60px',
 
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('/images/tryout.png')",
+          "linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('/images/modalidad.png')",
 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -36,12 +36,36 @@ function Hero() {
         overflow: 'hidden',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'flex-end',
+        alignItems: 'center',
       }}
     >
-      
+      {/* Decorative elements */}
+      <div
+        style={{
+          position: 'absolute',
+          top: '-50px',
+          right: '-100px',
+          width: '300px',
+          height: '300px',
+          backgroundColor: '#4DD9A6',
+          borderRadius: '50%',
+          opacity: '0.1',
+        }}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '-100px',
+          left: '-50px',
+          width: '400px',
+          height: '400px',
+          backgroundColor: '#4DD9A6',
+          borderRadius: '50%',
+          opacity: '0.1',
+        }}
+      />
 
-      <div style={{ position: 'relative', zIndex: 1, maxWidth: '900px', width: '100%', }}>
+      <div style={{ position: 'relative', zIndex: 1 }}>
         {/* Logo */}
         
 
@@ -73,8 +97,8 @@ function Hero() {
             }
           }}
           style={{
-            backgroundColor: '#63ab32',
-            color: '#f4f5f5',
+            backgroundColor: '#4DD9A6',
+            color: '#2D3748',
             padding: isMobile ? '12px 30px' : '15px 40px',
             fontSize: isMobile ? '14px' : '16px',
             fontWeight: 'bold',

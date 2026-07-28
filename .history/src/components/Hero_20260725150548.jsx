@@ -15,35 +15,54 @@ function Hero() {
     <section
       id="inicio"
       style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
         color: 'white',
-        padding: isMobile ? '140px 20px 120px' : '180px 40px 140px',
+        padding: isMobile ? '100px 20px 60px 20px' : '120px 40px 80px 40px',
         textAlign: 'center',
         marginTop: '60px',
-
-        backgroundImage:
-          "linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('/images/tryout.png')",
-
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-
-        minHeight: isMobile ? '75vh' : '90vh',
-
+        backgroundImage:"linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('/images/hero.jpg')",
         position: 'relative',
         overflow: 'hidden',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'flex-end',
       }}
     >
-      
+      {/* Decorative elements */}
+      <div
+        style={{
+          position: 'absolute',
+          top: '-50px',
+          right: '-100px',
+          width: '300px',
+          height: '300px',
+          backgroundColor: '#4DD9A6',
+          borderRadius: '50%',
+          opacity: '0.1',
+        }}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '-100px',
+          left: '-50px',
+          width: '400px',
+          height: '400px',
+          backgroundColor: '#4DD9A6',
+          borderRadius: '50%',
+          opacity: '0.1',
+        }}
+      />
 
-      <div style={{ position: 'relative', zIndex: 1, maxWidth: '900px', width: '100%', }}>
+      <div style={{ position: 'relative', zIndex: 1 }}>
         {/* Logo */}
-        
+        <div style={{  }}>
+          <img
+            src={require('../assets/LogoZAMEA.png')}
+            alt="ZAMEA GROUP Logo"
+            style={{
+              maxWidth: isMobile ? '120px' : '460px',
+              height: 'auto',
+              animation: 'fadeInDown 0.8s ease',
+            }}
+          />
+        </div>
 
         <h2
           style={{
@@ -73,8 +92,8 @@ function Hero() {
             }
           }}
           style={{
-            backgroundColor: '#63ab32',
-            color: '#f4f5f5',
+            backgroundColor: '#4DD9A6',
+            color: '#2D3748',
             padding: isMobile ? '12px 30px' : '15px 40px',
             fontSize: isMobile ? '14px' : '16px',
             fontWeight: 'bold',

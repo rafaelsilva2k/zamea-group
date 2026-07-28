@@ -58,7 +58,7 @@ function Header() {
           top: 0,
           left: 0,
           right: 0,
-          backgroundColor: "rgb(245, 250, 241)",
+          backgroundColor: "rgb(99, 171, 50)",
           backdropFilter: "blur(12px)",
           borderBottom: "1px solid rgba(0,0,0,.08)",
           padding: isMobile ? '12px 16px' : '15px 30px',
@@ -103,7 +103,7 @@ function Header() {
                 style={{
                   background: 'none',
                   border: 'none',
-                  color: 'rgb(45, 55, 72)',
+                  color: '#3d701b',
                   fontSize: '16px',
                   fontWeight: '500',
                   cursor: 'pointer',

@@ -384,7 +384,7 @@ function Contacto() {
                   e.currentTarget.style.color = '#1E40AF';
                 }}
               >
-                📞 Llamar: 55 7404 7058
+                📞 Llamar: (52) 1234-5678. +52 55 7404 7058
               </a>
               <a
                 href="https://wa.me/525574047058?text=Hola%20tengo%20una%20consulta%20sobre%20ZAMEA%20GROUP"

@@ -117,7 +117,7 @@ function SobreNosotros() {
             {/* Card 1 */}
             <div
               style={{
-                backgroundColor: '#1E40AF',
+                backgroundColor: '#1f326f',
                 color: 'white',
                 padding: '30px',
                 borderRadius: '16px',
@@ -145,8 +145,8 @@ function SobreNosotros() {
             {/* Card 2 */}
             <div
               style={{
-                backgroundColor: '#63ab32',
-                color: '#ffffff',
+                backgroundColor: '#4DD9A6',
+                color: '#2D3748',
                 padding: '30px',
                 borderRadius: '16px',
                 boxShadow: '0 10px 30px rgba(77, 217, 166, 0.2)',

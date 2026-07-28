@@ -103,7 +103,7 @@ function Header() {
                 style={{
                   background: 'none',
                   border: 'none',
-                  color: 'rgb(45, 55, 72)',
+                  color: 'rgb(30, 64, 175)',
                   fontSize: '16px',
                   fontWeight: '500',
                   cursor: 'pointer',

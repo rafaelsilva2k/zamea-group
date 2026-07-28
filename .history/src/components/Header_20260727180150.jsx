@@ -58,9 +58,9 @@ function Header() {
           top: 0,
           left: 0,
           right: 0,
-          backgroundColor: "rgb(245, 250, 241)",
-          backdropFilter: "blur(12px)",
-          borderBottom: "1px solid rgba(0,0,0,.08)",
+          backgroundColor: "rgba(255,255,255,.95)",
+backdropFilter: "blur(12px)",
+borderBottom: "1px solid rgba(0,0,0,.08)",
           padding: isMobile ? '12px 16px' : '15px 30px',
           display: 'flex',
           justifyContent: 'space-between',
@@ -103,7 +103,8 @@ function Header() {
                 style={{
                   background: 'none',
                   border: 'none',
-                  color: 'rgb(45, 55, 72)',
+                  color:"#024513",
+fontWeight:"600",
                   fontSize: '16px',
                   fontWeight: '500',
                   cursor: 'pointer',
@@ -127,7 +128,8 @@ function Header() {
               border: 'none',
               fontSize: '28px',
               cursor: 'pointer',
-              color: '#2D3748',
+              color:"#024513",
+fontWeight:"600",
               padding: '5px',
             }}
           >
