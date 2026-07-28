@@ -22,8 +22,10 @@ function Hero() {
         padding: isMobile ? '140px 20px 120px' : '180px 40px 140px',
         textAlign: 'center',
         marginTop: '60px',
+
         backgroundImage:
           "linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('/images/tryout.png')",
+
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
