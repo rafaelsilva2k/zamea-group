@@ -44,14 +44,14 @@ function Servicios() {
     },
     {
       titulo: 'Modalidad 10',
-      descripcion: '¿Conoces la Modalidad 10? ¿Sabes todos los beneficios que puede ofrecerte? Agenda una asesoría presencial gratuita y descubre si esta opción es la más conveniente para ti. Nuestros especialistas analizarán tu caso y resolverán todas tus dudas.',
+      descripcion: 'Financiamiento flexible bajo Modalidad 10. Soluciones adaptadas a tu realidad económica.',
       icon: '🎯',
       color: '#63ab32',
       imagen: 'images/pencil.png'
     },
     {
       titulo: 'Créditos de Pensionados',
-      descripcion: '¿Eres pensionado o jubilado? Conoce nuestros créditos diseñados especialmente para pensionados, con tasas competitivas, plazos flexibles y un proceso rápido y sencillo. Agenda una asesoría y encuentra la opción ideal para ti.',
+      descripcion: 'Créditos especiales para personas jubiladas. Con tasas competitivas y plazos accesibles.',
       icon: '💰',
       color: '#2D3748',
       imagen: 'images/people.png'

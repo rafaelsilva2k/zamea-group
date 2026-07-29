@@ -57,7 +57,7 @@ function SobreNosotros() {
                 fontSize: '16px',
                 color: '#666',
                 lineHeight: '1.8',
-                marginBottom: '20px',
+                marginBottom: '30px',
               }}
             >
               Nos caracterizamos por brindar un servicio transparente, flexible y cercano, adaptándonos a las necesidades de cada cliente. Nuestro objetivo es acompañarte durante todo el proceso, resolver todas tus dudas y ayudarte a tomar la mejor decisión para asegurar un mejor futuro y una pensión más sólida.

@@ -57,22 +57,13 @@ function SobreNosotros() {
                 fontSize: '16px',
                 color: '#666',
                 lineHeight: '1.8',
-                marginBottom: '20px',
+                marginBottom: '30px',
               }}
             >
               Nos caracterizamos por brindar un servicio transparente, flexible y cercano, adaptándonos a las necesidades de cada cliente. Nuestro objetivo es acompañarte durante todo el proceso, resolver todas tus dudas y ayudarte a tomar la mejor decisión para asegurar un mejor futuro y una pensión más sólida.
-              
-            </p>
-            <p
-              style={{
-                fontSize: '16px',
-                color: '#666',
-                lineHeight: '1.8',
-                marginBottom: '20px',
-              }}
-            >
               Ya sea que estés por pensionarte, quieras mejorar tu pensión o necesites financiamiento especializado, en ZAMEA GROUP encontrarás un equipo comprometido con ofrecerte soluciones reales, atención profesional y un acompañamiento de principio a fin.
             </p>
+            
 
             {/* Stats */}
             <div
@@ -149,7 +140,7 @@ function SobreNosotros() {
                 Nuestra Misión
               </h3>
               <p style={{ margin: 0, lineHeight: '1.6', opacity: 0.9, fontSize: '15px' }}>
-                Ayudar a cada persona a obtener la mejor pensión posible mediante una asesoría personalizada, transparente y profesional. Analizamos cada caso de forma individual para encontrar la estrategia que genere el mayor beneficio, acompañando a nuestros clientes desde la primera consulta hasta que alcanzan su objetivo.
+                Proporcionar asesoría financiera experta para maximizar los beneficios de jubilación de nuestros clientes.
               </p>
             </div>
 
@@ -177,7 +168,7 @@ function SobreNosotros() {
                 Nuestros Valores
               </h3>
               <p style={{ margin: 0, lineHeight: '1.6', fontSize: '15px' }}>
-                Creemos que la confianza se gana con hechos. Por eso trabajamos con honestidad, transparencia y compromiso, ofreciendo soluciones flexibles adaptadas a las necesidades de cada cliente. Nuestro objetivo es que cada persona tome decisiones informadas y se sienta respaldada durante todo su proceso de pensión o financiamiento.
+                Transparencia, profesionalismo e integridad en cada interacción con nuestros clientes.
               </p>
             </div>
           </div>

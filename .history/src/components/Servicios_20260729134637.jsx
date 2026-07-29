@@ -51,7 +51,7 @@ function Servicios() {
     },
     {
       titulo: 'Créditos de Pensionados',
-      descripcion: '¿Eres pensionado o jubilado? Conoce nuestros créditos diseñados especialmente para pensionados, con tasas competitivas, plazos flexibles y un proceso rápido y sencillo. Agenda una asesoría y encuentra la opción ideal para ti.',
+      descripcion: 'Créditos especiales para personas jubiladas. Con tasas competitivas y plazos accesibles.',
       icon: '💰',
       color: '#2D3748',
       imagen: 'images/people.png'

@@ -37,21 +37,22 @@ function Servicios() {
     },
     {
       titulo: 'Ley 73',
-      descripcion: '¿Eres Ley 73 y aún no conoces todos los beneficios que tienes? Agenda una asesoría presencial gratuita y descubre cómo aprovechar al máximo los beneficios que la Ley 73 ofrece. Analizamos tu caso y te ayudamos a obtener la mejor pensión posible.',
+      descripcion: '¿Eres Ley 73 y aún no conoces todos los beneficios que tienes?
+Agenda una asesoría presencial gratuita y descubre cómo aprovechar al máximo los beneficios que la Ley 73 ofrece. Analizamos tu caso y te ayudamos a obtener la mejor pensión posible.',
       icon: '✅',
       color: '#1E40AF',
       imagen: 'images/study.png'
     },
     {
       titulo: 'Modalidad 10',
-      descripcion: '¿Conoces la Modalidad 10? ¿Sabes todos los beneficios que puede ofrecerte? Agenda una asesoría presencial gratuita y descubre si esta opción es la más conveniente para ti. Nuestros especialistas analizarán tu caso y resolverán todas tus dudas.',
+      descripcion: 'Financiamiento flexible bajo Modalidad 10. Soluciones adaptadas a tu realidad económica.',
       icon: '🎯',
       color: '#63ab32',
       imagen: 'images/pencil.png'
     },
     {
       titulo: 'Créditos de Pensionados',
-      descripcion: '¿Eres pensionado o jubilado? Conoce nuestros créditos diseñados especialmente para pensionados, con tasas competitivas, plazos flexibles y un proceso rápido y sencillo. Agenda una asesoría y encuentra la opción ideal para ti.',
+      descripcion: 'Créditos especiales para personas jubiladas. Con tasas competitivas y plazos accesibles.',
       icon: '💰',
       color: '#2D3748',
       imagen: 'images/people.png'
