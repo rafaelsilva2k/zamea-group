@@ -383,108 +383,75 @@ function Contacto() {
               }}
             >
 
-              <a
-                href="tel:+525534717952"
+
+              <div
                 style={{
-                  backgroundColor: '#f0f4ff',
-                  color: '#1E40AF',
-                  padding: '18px',
-                  borderRadius: '10px',
+                  background: '#F6F8F3',
+                  borderRadius: '16px',
+                  padding: '25px',
                   textAlign: 'center',
-                  textDecoration: 'none',
-                  fontWeight: '600',
-                  transition: 'all 0.3s ease',
-                  display: 'flex',
-                  flexDirection: 'column',   // <-- importante
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  gap: '8px',
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.backgroundColor = '#1E40AF';
-                  e.currentTarget.style.color = 'white';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.backgroundColor = '#f0f4ff';
-                  e.currentTarget.style.color = '#1E40AF';
+                  border: '1px solid #E4E8DF'
                 }}
               >
-                <>
-                  <span
-                    style={{
-                      fontSize: '24px',
-                      fontWeight: '700',
-                    }}
-                  >
-                    Arturo Frías
-                  </span>
 
-                  <span
-                    style={{
-                      fontSize: '18px',
-                      fontWeight: '500',
-                    }}
-                  >
-                    📞 55 3471 7952
-                  </span>
-                </>
-              </a>
-              
+              <h4
+              style={{
+              marginBottom:'12px',
+              color:'#496A36'
+              }}
+              >
+              📞 Atención General
+              </h4>
+
+              <p
+              style={{
+              fontSize:'22px',
+              fontWeight:'700',
+              margin:0
+              }}
+              >
+              55 7404 7058
+              </p>
+
+              </div>
+
+
+              <div
+                style={{
+                  background:'#F6F8F3',
+                  borderRadius:'16px',
+                  padding:'25px',
+                  textAlign:'center',
+                  border:'1px solid #E4E8DF'
+                }}
+              >
+
+              <h4
+              style={{
+              marginBottom:'12px',
+              color:'#496A36'
+              }}
+              >
+              📞 Financiamiento
+              </h4>
+
+              <p
+              style={{
+              fontSize:'22px',
+              fontWeight:'700',
+              margin:0
+              }}
+              >
+              55 XXXX XXXX
+              </p>
+
+              </div>
+
               <a
-                href="tel:+525513618119"
+                href="tel:+525574047058"
                 style={{
                   backgroundColor: '#f0f4ff',
                   color: '#1E40AF',
-                  padding: '18px',
-                  borderRadius: '10px',
-                  textAlign: 'center',
-                  textDecoration: 'none',
-                  fontWeight: '600',
-                  transition: 'all 0.3s ease',
-                  display: 'flex',
-                  flexDirection: 'column',   // <-- importante
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  gap: '8px',
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.backgroundColor = '#1E40AF';
-                  e.currentTarget.style.color = 'white';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.backgroundColor = '#f0f4ff';
-                  e.currentTarget.style.color = '#1E40AF';
-                }}
-              >                                
-
-                <>
-                  <span
-                    style={{
-                      fontSize: '24px',
-                      fontWeight: '700',
-                    }}
-                  >
-                    Rogelio Soto
-                  </span>
-
-                  <span
-                    style={{
-                      fontSize: '18px',
-                      fontWeight: '500',
-                    }}
-                  >
-                    📞 Llamar: 55 1361 8119
-                  </span>
-                </>
-
-              </a>
-              <a
-                href="https://wa.me/525574047058?text=Hola%20tengo%20una%20consulta%20sobre%20ZAMEA%20GROUP"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  backgroundColor: '#f0fff4',
-                  color: '#4DD9A6',
                   padding: '16px',
                   borderRadius: '8px',
                   textAlign: 'center',
@@ -497,15 +464,52 @@ function Contacto() {
                   gap: '8px',
                 }}
                 onMouseOver={(e) => {
-                  e.currentTarget.style.backgroundColor = '#4DD9A6';
+                  e.currentTarget.style.backgroundColor = '#1E40AF';
                   e.currentTarget.style.color = 'white';
                 }}
                 onMouseOut={(e) => {
-                  e.currentTarget.style.backgroundColor = '#f0fff4';
-                  e.currentTarget.style.color = '#4DD9A6';
+                  e.currentTarget.style.backgroundColor = '#f0f4ff';
+                  e.currentTarget.style.color = '#1E40AF';
                 }}
               >
-                💬 WhatsApp
+                📞 Llamar: 55 7404 7058
+              </a>
+              <a
+              href="https://wa.me/525574047058"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+              background:'#496A36',
+              color:'white',
+              borderRadius:'16px',
+              padding:'25px',
+              textDecoration:'none',
+              display:'flex',
+              flexDirection:'column',
+              justifyContent:'center',
+              alignItems:'center',
+              transition:'.3s'
+              }}
+              >
+
+              <div
+              style={{
+              fontSize:'35px'
+              }}
+              >
+              💬
+              </div>
+
+              <div
+              style={{
+              marginTop:'12px',
+              fontWeight:'700',
+              fontSize:'20px'
+              }}
+              >
+              WhatsApp
+              </div>
+
               </a>
             </div>
           </div>

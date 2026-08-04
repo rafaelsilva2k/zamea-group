@@ -23,12 +23,6 @@ function FloatingButtons() {
       link: 'https://wa.me/525574047058?text=Hola%20tengo%20una%20consulta%20sobre%20ZAMEA%20GROUP',
     },
     {
-      icon: '📞',
-      label: 'Llamar',
-      color: '#1E40AF',
-      link: 'tel:+525574047058',
-    },
-    {
       icon: '✉️',
       label: 'Email',
       color: '#4DD9A6',
@@ -164,118 +158,9 @@ function FloatingButtons() {
       }}
     >
       {/* Todos los botones siempre visibles */}
-      {buttons.map((btn, index) => {
-  if (btn.label === "Llamar") {
-    return (
-      <div
-        key={index}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "flex-end",
-          gap: "8px",
-        }}
-      >
-        {/* Opciones de teléfonos */}
-        {showPhones && (
-          <div
-            style={{
-              background: "#fff",
-              borderRadius: "12px",
-              overflow: "hidden",
-              boxShadow: "0 8px 25px rgba(0,0,0,.25)",
-              width: "220px",
-            }}
-          >
-            <a
-              href="tel:+525534717952"
-              style={{
-                display: "block",
-                padding: "12px 18px",
-                color: "#1f2937",
-                textDecoration: "none",
-                borderBottom: "1px solid #eee",
-              }}
-            >
-              <strong>Arturo Frías</strong>
-              <br />
-              📞 55 3471 7952
-            </a>
-
-            <a
-              href="tel:+525513618119"
-              style={{
-                display: "block",
-                padding: "12px 18px",
-                color: "#1f2937",
-                textDecoration: "none",
-              }}
-            >
-              <strong>Rogelio Soto</strong>
-              <br />
-              📞 55 1361 8119
-            </a>
-          </div>
-        )}
-
-        {/* Botón principal */}
-        <button
-          onClick={() => setShowPhones(!showPhones)}
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "12px",
-            backgroundColor: btn.color,
-            color: "white",
-            padding: "14px 24px",
-            borderRadius: "50px",
-            border: "none",
-            fontWeight: "600",
-            cursor: "pointer",
-            boxShadow: "0 4px 15px rgba(0,0,0,.2)",
-            transition: ".3s",
-          }}
-        >
-          <span style={{ fontSize: "20px" }}>📞</span>
-          Llamar
-          <span>{showPhones ? "▲" : "▼"}</span>
-        </button>
-      </div>
-    );
-  }
-
-  // LOS DEMÁS BOTONES (WhatsApp y Email)
-  return (
-    <a
-      key={index}
-      href={btn.link}
-      target={btn.link.startsWith("http") ? "_blank" : undefined}
-      rel="noopener noreferrer"
-      style={{
-        display: "flex",
-        alignItems: "center",
-        gap: "12px",
-        backgroundColor: btn.color,
-        color: "white",
-        padding: "14px 24px",
-        borderRadius: "50px",
-        textDecoration: "none",
-        fontWeight: "600",
-        boxShadow: "0 4px 15px rgba(0,0,0,.2)",
-        transition: ".3s",
-      }}
-      onMouseOver={(e) => {
-        e.currentTarget.style.transform = "translateX(-8px)";
-      }}
-      onMouseOut={(e) => {
-        e.currentTarget.style.transform = "translateX(0)";
-      }}
-    >
-      <span style={{ fontSize: "20px" }}>{btn.icon}</span>
-      {btn.label}
-    </a>
-  );
-})}
+      {buttons.map((btn, index) => (
+        
+      ))}
 
       <style>{`
         @keyframes slideInRight {

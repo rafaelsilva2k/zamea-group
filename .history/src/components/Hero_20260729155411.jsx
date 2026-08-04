@@ -116,7 +116,7 @@ function Hero() {
 <div
   style={{
     position: 'absolute',
-    bottom: isMobile ? '25px' : '35px',
+    bottom: isMobile ? '250px' : '350px',
     left: isMobile ? '20px' : '50px',
     maxWidth: isMobile ? '90%' : '420px',
     textAlign: 'left',
@@ -125,7 +125,7 @@ function Hero() {
 >
   <div
       style={{
-          width:'60px', 
+          width:'60px',
           height:'4px',
           background:'#63ab32',
           borderRadius:'20px',

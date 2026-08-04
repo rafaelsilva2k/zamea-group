@@ -164,7 +164,9 @@ function FloatingButtons() {
       }}
     >
       {/* Todos los botones siempre visibles */}
-      {buttons.map((btn, index) => {
+      {buttons.map((btn, index) => (
+        
+        {buttons.map((btn, index) => {
   if (btn.label === "Llamar") {
     return (
       <div
@@ -276,6 +278,7 @@ function FloatingButtons() {
     </a>
   );
 })}
+      ))}
 
       <style>{`
         @keyframes slideInRight {

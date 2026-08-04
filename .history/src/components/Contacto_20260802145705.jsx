@@ -435,16 +435,15 @@ function Contacto() {
                 style={{
                   backgroundColor: '#f0f4ff',
                   color: '#1E40AF',
-                  padding: '18px',
-                  borderRadius: '10px',
+                  padding: '16px',
+                  borderRadius: '8px',
                   textAlign: 'center',
                   textDecoration: 'none',
                   fontWeight: '600',
                   transition: 'all 0.3s ease',
                   display: 'flex',
-                  flexDirection: 'column',   // <-- importante
-                  justifyContent: 'center',
                   alignItems: 'center',
+                  justifyContent: 'center',
                   gap: '8px',
                 }}
                 onMouseOver={(e) => {
@@ -455,27 +454,11 @@ function Contacto() {
                   e.currentTarget.style.backgroundColor = '#f0f4ff';
                   e.currentTarget.style.color = '#1E40AF';
                 }}
-              >                                
+              >
+                Rogelio Soto
+                📞 Llamar: 55 1361 8119
 
-                <>
-                  <span
-                    style={{
-                      fontSize: '24px',
-                      fontWeight: '700',
-                    }}
-                  >
-                    Rogelio Soto
-                  </span>
-
-                  <span
-                    style={{
-                      fontSize: '18px',
-                      fontWeight: '500',
-                    }}
-                  >
-                    📞 Llamar: 55 1361 8119
-                  </span>
-                </>
+                
 
               </a>
               <a

@@ -148,7 +148,7 @@ function Hero() {
     style={{
       fontSize: isMobile ? '14px' : '16px',
       color: 'rgba(255,255,255,.85)',
-      lineHeight: '1.6',
+      lineHeight: '5.6',
       margin: 0,
     }}
   >

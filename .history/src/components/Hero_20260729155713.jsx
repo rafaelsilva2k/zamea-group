@@ -146,7 +146,7 @@ function Hero() {
 
   <p
     style={{
-      fontSize: isMobile ? '14px' : '16px',
+      fontSize: isMobile ? '140px' : '16px',
       color: 'rgba(255,255,255,.85)',
       lineHeight: '1.6',
       margin: 0,

@@ -125,7 +125,7 @@ function Hero() {
 >
   <div
       style={{
-          width:'60px', 
+          width:'80px',
           height:'4px',
           background:'#63ab32',
           borderRadius:'20px',

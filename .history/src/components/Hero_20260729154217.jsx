@@ -124,14 +124,14 @@ function Hero() {
   }}
 >
   <div
-      style={{
-          width:'60px', 
-          height:'4px',
-          background:'#63ab32',
-          borderRadius:'20px',
-          marginBottom:'18px'
-      }}
-  />
+    style={{
+        width:'60px',
+        height:'4px',
+        background:'#63ab32',
+        borderRadius:'20px',
+        marginBottom:'18px'
+    }}
+/>
   <p
     style={{
       fontSize: isMobile ? '16px' : '20px',

@@ -149,7 +149,7 @@ function Hero() {
       fontSize: isMobile ? '14px' : '16px',
       color: 'rgba(255,255,255,.85)',
       lineHeight: '1.6',
-      margin: 0,
+      margin: 2,
     }}
   >
     Te acompañamos desde la primera asesoría hasta que

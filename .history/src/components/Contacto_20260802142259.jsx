@@ -344,60 +344,57 @@ function Contacto() {
           >
             
             <div
-              style={{
-                textAlign: 'center',
-                marginBottom: '35px',
-              }}
-            >
+  style={{
+    textAlign: 'center',
+    marginBottom: '35px',
+  }}
+>
 
-              <h3
-                style={{
-                  color: '#2F4732',
-                  fontSize: '30px',
-                  marginBottom: '10px',
-                  fontWeight: '700',
-                }}
-              >
-                ¿En qué podemos ayudarte?
-              </h3>
+  <h3
+    style={{
+      color: '#2F4732',
+      fontSize: '30px',
+      marginBottom: '10px',
+      fontWeight: '700',
+    }}
+  >
+    ¿En qué podemos ayudarte?
+  </h3>
 
-              <p
-                style={{
-                  color: '#777',
-                  fontSize: '17px',
-                  margin: 0,
-                }}
-              >
-                Nuestros asesores están listos para resolver tus dudas.
-              </p>
+  <p
+    style={{
+      color: '#777',
+      fontSize: '17px',
+      margin: 0,
+    }}
+  >
+    Nuestros asesores están listos para resolver tus dudas.
+  </p>
 
-            </div>
+</div>
 
             
             <div
               style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(230px,1fr))',
-                gap: '20px',
-                marginBottom: '30px',
+                gridTemplateColumns: '1fr 1fr',
+                gap: '15px',
               }}
             >
-
               <a
-                href="tel:+525534717952"
+                href="tel:+525574047058"
                 style={{
                   backgroundColor: '#f0f4ff',
                   color: '#1E40AF',
-                  padding: '18px',
-                  borderRadius: '10px',
+                  padding: '16px',
+                  borderRadius: '8px',
                   textAlign: 'center',
                   textDecoration: 'none',
                   fontWeight: '600',
                   transition: 'all 0.3s ease',
                   display: 'flex',
-                  flexDirection: 'column',   // <-- importante
-                  justifyContent: 'center',
                   alignItems: 'center',
+                  justifyContent: 'center',
                   gap: '8px',
                 }}
                 onMouseOver={(e) => {
@@ -409,74 +406,7 @@ function Contacto() {
                   e.currentTarget.style.color = '#1E40AF';
                 }}
               >
-                <>
-                  <span
-                    style={{
-                      fontSize: '24px',
-                      fontWeight: '700',
-                    }}
-                  >
-                    Arturo Frías
-                  </span>
-
-                  <span
-                    style={{
-                      fontSize: '18px',
-                      fontWeight: '500',
-                    }}
-                  >
-                    📞 55 3471 7952
-                  </span>
-                </>
-              </a>
-              
-              <a
-                href="tel:+525513618119"
-                style={{
-                  backgroundColor: '#f0f4ff',
-                  color: '#1E40AF',
-                  padding: '18px',
-                  borderRadius: '10px',
-                  textAlign: 'center',
-                  textDecoration: 'none',
-                  fontWeight: '600',
-                  transition: 'all 0.3s ease',
-                  display: 'flex',
-                  flexDirection: 'column',   // <-- importante
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  gap: '8px',
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.backgroundColor = '#1E40AF';
-                  e.currentTarget.style.color = 'white';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.backgroundColor = '#f0f4ff';
-                  e.currentTarget.style.color = '#1E40AF';
-                }}
-              >                                
-
-                <>
-                  <span
-                    style={{
-                      fontSize: '24px',
-                      fontWeight: '700',
-                    }}
-                  >
-                    Rogelio Soto
-                  </span>
-
-                  <span
-                    style={{
-                      fontSize: '18px',
-                      fontWeight: '500',
-                    }}
-                  >
-                    📞 Llamar: 55 1361 8119
-                  </span>
-                </>
-
+                📞 Llamar: 55 7404 7058
               </a>
               <a
                 href="https://wa.me/525574047058?text=Hola%20tengo%20una%20consulta%20sobre%20ZAMEA%20GROUP"

@@ -58,6 +58,16 @@ function Hero() {
         >
           Transformado años de trabajo en tranquilidad
         </p>
+        <p
+          style={{
+            fontSize: isMobile ? '16px' : '22px',
+            margin: '0 0 30px 0',
+            opacity: '0.95',
+            animation: 'fadeInUp 0.8s ease 0.2s backwards',
+          }}
+        >
+          Tu tranquilidad es nuestra prioridad. Te acompañamos desde la primera asesoría hasta que recibes tu pensión o el financiamiento que necesitas.
+        </p>
         <button
           onClick={() => {
             const contactoSection = document.getElementById('contacto');
@@ -112,50 +122,6 @@ function Hero() {
           }
         }
       `}</style>
-      {/* Mensaje inferior */}
-<div
-  style={{
-    position: 'absolute',
-    bottom: isMobile ? '25px' : '35px',
-    left: isMobile ? '20px' : '50px',
-    maxWidth: isMobile ? '90%' : '420px',
-    textAlign: 'left',
-    zIndex: 2,
-  }}
->
-  <div
-      style={{
-          width:'60px', 
-          height:'4px',
-          background:'#63ab32',
-          borderRadius:'20px',
-          marginBottom:'18px'
-      }}
-  />
-  <p
-    style={{
-      fontSize: isMobile ? '16px' : '20px',
-      fontWeight: '600',
-      marginBottom: '8px',
-      color: '#ffffff',
-      lineHeight: '1.4',
-    }}
-  >
-    Tu tranquilidad es nuestra prioridad.
-  </p>
-
-  <p
-    style={{
-      fontSize: isMobile ? '14px' : '16px',
-      color: 'rgba(255,255,255,.85)',
-      lineHeight: '1.6',
-      margin: 0,
-    }}
-  >
-    Te acompañamos desde la primera asesoría hasta que
-    recibes tu pensión o el financiamiento que necesitas.
-  </p>
-</div>
     </section>
   );
 }
